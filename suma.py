@@ -1,6 +1,6 @@
 class Suma:
     def __init__(self, numero1, numero2):
-        if not isinstance(numero1, (int, float)) or not isinstance(numero2, (int, float)):
+        if not isinstance(numero1, (int)) or not isinstance(numero2, (int)):
             raise TypeError("Por favor introduce valores numéricos válidos.")
         self.numero1 = numero1
         self.numero2 = numero2

@@ -15,5 +15,5 @@ def test_suma_con_cero():
 
 def test_suma_no_numerica():
     with pytest.raises(TypeError):
-        suma = Suma("a", "b")
+        suma = Suma("hola", "adios")
         suma.calcular_suma()
