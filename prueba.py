@@ -1,5 +1,5 @@
 import pytest
-from suma import Suma
+from hola import Suma
 
 def test_calcular_suma():
     caso1 = Suma(5, 10)
